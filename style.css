@@ -1,0 +1,290 @@
+
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+
+.top{
+
+	  width:100%;
+	  height: 580px;
+	  top:0;
+	  background-image: url(tree.jpg);
+	  background-size: 100%;
+	  background-repeat: none;
+
+
+}
+.sub-top {
+	width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  	top:0;
+    height: 580px;
+    background-color: hsl(348deg 52% 25% / 59%);
+
+   
+}
+.top nav{
+
+	margin-top:40px;
+	top:275px;
+
+
+}
+
+.top nav a {
+		border-right: 2px solid white;
+		text-decoration: none;
+		color: white;
+		font-size: 18px;
+		font-weight: 4px;
+		margin: 4px;
+		padding-right: 4px;
+		padding-left: 4px;
+		
+}
+.top nav a:hover{
+	color: hsl(348deg 52% 25%) ;
+
+
+}
+
+.logo{
+	width:300px;
+	height: 200px;
+	position: relative;
+	margin-top: 120px;
+	margin-right: 1000px;
+
+}
+
+.heading h2{
+	color: white;
+	margin-top: 110px;
+	font-size: 2.5em;
+	font-family: "Times New Roman";
+
+}
+
+.heading p{
+
+	color: white;
+	
+	font-size: 1.5em;
+	font-family: "Times New Roman";
+	letter-spacing: 6px;
+
+}
+.text {
+	margin-top: 50px;
+	width:80%;
+	height:300px;
+	background-color: rgb(12,22,24,0.1);
+	margin-left:10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 160px;
+	
+	
+}
+
+.text p{
+
+	color: hsl(348deg 52% 25%);
+	margin-top: 10px;
+	font-size: 1.5em;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	height: 200px;
+	top:300px;
+
+}
+
+.comments{
+
+	height: 400px;
+	width: 100%;
+	margin-top: 50px;
+	background-color: hsl(348deg 52% 25% / 51%);
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+	font-family: "Times New Roman";
+	color: white;
+	box-sizing: border-box;
+
+}
+
+.comm{
+
+	width:350px;
+	height: 370px;
+	background-color: hsl(348deg 52% 25% / 51%);
+	border-radius: 15px;
+	box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.end{
+
+    width:100%;
+	height: 250px;
+	margin-top: 50px;
+	background-image: url(end.jpg);
+	background-size: cover;
+	background-repeat: none;
+	
+	box-sizing: border-box;
+	
+	
+
+}
+
+.sub-end{
+	background-color: hsl(51deg 1% 1% / 70%);
+	width:100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+   }
+    
+
+.sub-end .sec{
+
+	width:100%;
+	height: 240px;
+	margin-right: 20px;
+	margin-left: 20px;
+	box-sizing: border-box;
+	flex:1 1 auto;
+	
+
+
+}
+
+
+
+.sub-end .sec.p1{
+
+	border-right: 2px solid white;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	color: white;
+	text-align: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+	
+
+	}
+
+.sub-end .sec.p2{
+
+	
+	
+	border-right: 2px solid white;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+	color: white;
+	text-align: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+	
+	
+}
+
+
+
+.sub-end .sec.p3{
+
+	
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	padding-top: 10px;
+	box-sizing: border-box;
+	
+
+	
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  
+ 
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.copy-right{
+
+
+	height: 50px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: hsl(348deg 3% 18%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	box-sizing: border-box;
+
+	
+}
+
+.copy-right p{
+	font-family: "Times New Roman";
+	text-align: center;
+	color: white;
+	
+	
+}
